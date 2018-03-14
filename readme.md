@@ -1,3 +1,22 @@
+#Bamazon CLI App
+## Adam Specker March 2018
+
+## Dependencies
+* Mysql
+* inquirer
+
+### Stage One
+* create database and populate with products
+* write customer function
+    * outputs all the items in the database
+    * prompt the user on their action
+        * first - id of product they want to buy
+        * second - quantity of product they want to buy
+        * if quantity is insufficient, output message and prevent transaction
+        * else display total cost and update quantity
+
+
+
 Instructions
 Challenge #1: Customer View (Minimum Requirement)
 Create a MySQL Database called bamazon.
@@ -30,6 +49,7 @@ However, if your store does have enough of the product, you should fulfill the c
 This means updating the SQL database to reflect the remaining quantity.
 Once the update goes through, show the customer the total cost of their purchase.
 If this activity took you between 8-10 hours, then you've put enough time into this assignment. Feel free to stop here -- unless you want to take on the next challenge.
+
 Challenge #2: Manager View (Next Level)
 Create a new Node application called bamazonManager.js. Running this application will:
 
