@@ -1,3 +1,5 @@
+create database bamazon;
+
 use bamazon;
 
 create table products(
