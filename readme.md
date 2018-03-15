@@ -16,7 +16,16 @@
         * else display total cost and update quantity
 
 ### Stage Two
-* 
+* inquirer prompt with these options, tied to functions
+    * view products
+        * select * - list every product
+    * view low inventory - select * where
+        * list all items with inventory count less than 5
+    * add to inventory - update where
+        * increase the quantity of an item in the inventory
+    * add new product - insert into
+        * add new product with a value for each of the columns
+
 
 
 Challenge #2: Manager View (Next Level)
@@ -32,6 +41,8 @@ If a manager selects View Low Inventory, then it should list all items with an i
 If a manager selects Add to Inventory, your app should display a prompt that will let the manager "add more" of any item currently in the store.
 If a manager selects Add New Product, it should allow the manager to add a completely new product to the store.
 If you finished Challenge #2 and put in all the hours you were willing to spend on this activity, then rest easy! Otherwise continue to the next and final challenge.
+
+
 Challenge #3: Supervisor View (Final Level)
 Create a new MySQL table called departments. Your table should include the following columns:
 department_id
